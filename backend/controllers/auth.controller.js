@@ -21,7 +21,7 @@ export const SignupUser = async (req, res) => {
     //HASH PASSWORD HERE
     const boyProfilePic = `https://avatar.iran.liara.run/public/boy?username=${userName}`;
 
-    const girlProfilePic = `https://avatar.iran.liara.run/public/boy?username=${userName}`;
+    const girlProfilePic = `https://avatar.iran.liara.run/public/girl?username=${userName}`;
 
     const newUser = new User({
       fullName,
